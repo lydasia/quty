@@ -1,0 +1,24 @@
+{
+  "build": {
+    "extra_flags": "-D__AVR_DEV_LIB_NAME__=tn1626",
+    "f_cpu": "3333333L",
+    "mcu": "attiny1626",
+    "hwids": [
+      [
+        "0x1A86",
+        "0x55D3"
+      ]
+    ]
+  },
+  "frameworks": [
+  ],
+  "name": "uQUTy",
+  "upload": {
+    "maximum_ram_size": 2048,
+    "maximum_size": 16384,
+    "protocol": "updi",
+    "speed": 230400
+  },
+  "url": "https://cab202.github.io/quty/",
+  "vendor": "QUT"
+}
